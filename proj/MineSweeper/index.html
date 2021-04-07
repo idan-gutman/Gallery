@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mine Sweeper</title>
+</head>
+
+<body onload="initGame()">
+
+    <h1 class="header">💣 Mine Sweeper 💣</h1>
+
+    <div class="timer">
+        <h2 class="txt-lives">Time: <span></span></h2>
+    </div>
+    <div class="lives">
+        <h2 class="txt-lives"><span></span> lives left</h2>
+    </div>
+
+    <div class="emojy">
+        <button onclick="restartBtn()" class="restart-btn"></button>
+    </div>
+
+    <button class="btn" onclick="chooseLevel('4')">Beginner</button>
+    <button class="btn" onclick="chooseLevel('8')">Medium</button>
+    <button class="btn" onclick="chooseLevel('12')">Expert</button>
+
+    <div class="board-container"></div>
+
+    <h3 class="best-time">Best time: <span>0</span></h3>
+
+    <button class="safe-btn" onclick="safeClick()"><span> </span> safe<br> click left</button>
+
+    <div class="game-over-msg">
+        <h3>Game over! <br> click on the smiley to play again </h3>
+    </div>
+
+    <script src="js/util.js"></script>
+    <script src="js/board.js"></script>
+    <script src="js/cells.js"></script>
+    <script src="js/game.js"></script>
+</body>
+
+</html>

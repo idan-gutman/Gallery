@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.76);
+}
+.header{
+    font-size: 30px;
+    color: rgb(39, 143, 84);
+    margin-top: 80px;
+}
+
+.table{
+    text-align: center;
+    margin: auto;
+    border-radius: 15%;
+    
+}
+
+.board td {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(233, 167, 45, 0.856);
+    border-radius: 30%;
+}
+.timerTxt{
+    background-color: rgb(219, 147, 79);
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 7px;
+}
+
+.btn{
+    border-radius: 15%;
+    background-color: skyblue;
+    font-size:20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.levelBtn{
+    width: 90px;
+    height: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: steelblue;
+}
+
+.next-number{
+    width: 15%;
+    height: 20px;
+    background-color: rgb(186, 228, 130);
+    padding: 5px;
+    margin: 20px auto;
+}
+.levelBtn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(121, 192, 185);
+    cursor: pointer;
+    border-radius: 7px;
+}

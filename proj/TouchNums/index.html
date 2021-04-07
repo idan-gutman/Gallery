@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title> Touch-nums</title>
+</head>
+
+<body onload="init()">
+    <h3 class="header"> Touch numbers game!</h3>
+    <div class='timer'>
+        <h3 class="timerTxt">00:00</h3>
+    </div>
+    <button onclick="tableSize(this)" class="1 levelBtn" >Easy(16)</button>
+    <button onclick="tableSize(this)" class="2 levelBtn" >Hurd(25)</button>
+    <button onclick="tableSize(this)" class="3 levelBtn" >Extreme(36)</button>
+    <table class="table" border="0" cellpading="10">
+        <tbody class="board"></tbody>
+    </table>
+
+    <div class="next-num">
+        <h3 class="next-number">Next number is: <span></span></h3>
+    </div>
+
+    <button onclick="newGame()" class="btn">new game</button>
+
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/x.js"></script>
+</body>
+
+</html>

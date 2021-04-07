@@ -1,0 +1,109 @@
+body {
+    text-align: center;
+    background-color: #e4d3afda
+}
+
+.header {
+    color: rgb(228, 75, 15);
+    font-size: 50px;
+    font-family: fantasy;
+    margin-top: 10px;
+}
+
+table {
+    margin: auto;
+    margin-top: 20px;
+}
+
+table td {
+    border: solid 1px;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(179, 179, 179);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px outset rgb(163, 162, 162);
+}
+
+table :hover {
+    background-color: rgb(156, 151, 151);
+}
+
+.txt-lives {
+    margin-top: 0%;
+    display: inline-block;
+    background-color: cadetblue;
+    width: 13%;
+    border: solid 3px;
+    border-radius: 10px;
+}
+
+.txt-lives span {
+    color: rgb(246, 38, 19);
+    font-size: larger;
+}
+
+.restart-btn {
+    font-size: 50px;
+    padding-top: 5px;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.emojy {
+    margin: 13px;
+}
+
+.game-over-msg {
+    display: none;
+    color: rgb(201, 21, 15);
+    font-size: large;
+}
+
+.btn {
+    height: 27px;
+    width: 90px;
+    font-family: fantasy;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(53, 24, 19);
+    color: rgb(228, 75, 15);
+    transition-duration: 0.4s;
+    border-radius: 20px;
+
+}
+
+.best-time {
+    color: rgb(53, 24, 19);
+    font-family: fantasy;
+    font-size: x-large
+}
+
+.safe-btn {
+    height: 64px;
+    width: 100px;
+    font-family: fantasy;
+    font-size: large;
+    cursor: pointer;
+    background-color: rgb(53, 24, 19);
+    color: rgb(228, 75, 15);
+    border-radius: 26px;
+    outline: none;
+    padding-bottom: 6px;
+
+}
+
+.safe-btn span {
+    color: antiquewhite;
+    font-size: 20px;
+}
